@@ -1,0 +1,20 @@
+{
+  "name": "@sukhbirsinghsareen/medium-commons",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "description": "Common validation schemas for Medium-like applications",
+  "author": "Sukhbir Singh Sareen",
+  "license": "MIT",
+  "scripts": {
+    "prepare": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["validation", "zod", "schema"],
+  "peerDependencies": {
+    "zod": "^3.24.2"
+  },
+  "devDependencies": {
+    "zod": "^3.24.2"
+  }
+}
